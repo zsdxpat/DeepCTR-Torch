@@ -1,5 +1,6 @@
 pip install torch==1.12.1+cpu torchvision==0.13.1+cpu torchaudio==0.12.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
 numpy==1.19.1
+tensorboard==2.11.2
 
 # DeepCTR-Torch
 
