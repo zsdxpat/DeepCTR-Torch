@@ -46,5 +46,5 @@ if __name__ == "__main__":
 
     model = DIN(feature_columns, behavior_feature_list, device=device, att_weight_normalization=True)
     model.compile('adagrad', 'binary_crossentropy',
-                  metrics=['binary_crossentropy'])
+                  metrics=['auc'])
     history = model.fit(x, y, batch_size=3, epochs=10, verbose=2, validation_split=0.0)
